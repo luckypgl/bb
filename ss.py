@@ -117,7 +117,7 @@ def hero():
         numbers.append(current)
         y=input("Do you want to play : Press 1 and 0 to exit \n")
         if(y==0):
-            y=False
+            y=True
         if (len(numbers)>11):
             clear()
             system('figlet Thank you!!')
@@ -141,7 +141,7 @@ if(expirydate>today):
     Finalend = now.replace(hour=18, minute=35, second=0, microsecond=0)
 
     if (True):
-            period=290
+            period=304
             hero()
     elif(now>First and now<Firstend):
             period=280
